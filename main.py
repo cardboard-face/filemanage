@@ -75,7 +75,7 @@ def authenticate(credentials: HTTPBasicCredentials = Depends(security)):
 SECRET_KEY = secrets.token_urlsafe(32)
 TOKEN_EXPIRY_SECONDS = 43200 
 TURNSTILE_SECRET_KEY = "0x4AAAAAAAzlMli8bi3JNb93TAutfAHmPp4"
-ruix = "mongodb+srv://todolej199:b4nREEGYC2MHwsDr@cluster0.z6pr8wi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+ruix = "mongodb+srv://diablo:OH4WLGrCZOlG6FH6@cluster0.qokt3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongo_client = MongoClient(ruix)
 dbx = mongo_client["drive"]
 file_stats_collection = dbx["file_stats"]
