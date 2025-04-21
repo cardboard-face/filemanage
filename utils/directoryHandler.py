@@ -8,7 +8,7 @@ from pymongo import MongoClient
 logger = Logger(__name__)
 
 # MongoDB connection
-mongo_uri = "mongodb+srv://diablo:OH4WLGrCZOlG6FH6@cluster0.qokt3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongo_uri = "mongodb+srv://todolej199:b4nREEGYC2MHwsDr@cluster0.z6pr8wi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(mongo_uri)
 db = client.tg_drive  # Database name
 drive_data_collection = db.drive_data  # Collection name
